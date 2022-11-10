@@ -1,0 +1,27 @@
+.city {
+  @apply w-full font-semibold sm:font-bold text-4xl sm:text-5xl mb-2.5;
+}
+
+.info {
+  @apply text-xl sm:text-2xl w-full;
+}
+
+.image {
+  @apply text-center w-1/2 mt-5;
+
+  svg {
+    @apply h-20 w-full;
+  }
+
+  path, polygon, rect {
+    @apply fill-white;
+  }
+
+  p {
+    @apply sm:mt-2.5;
+  }
+}
+
+.degree {
+  @apply text-7xl font-black my-auto;
+}

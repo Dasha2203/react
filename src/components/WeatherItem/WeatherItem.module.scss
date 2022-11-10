@@ -1,0 +1,11 @@
+.day {
+  @apply text-xl sm:text-xl font-light text-center flex items-center flex-col;
+
+  .icon {
+    @apply my-2 ;
+
+    path, polygon, rect{
+      @apply fill-white;
+    }
+  }
+}

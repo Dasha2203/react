@@ -1,0 +1,7 @@
+.button {
+  @apply py-2 px-3 rounded-lg text-white bg-cyan-600 hover:bg-cyan-400 transition ease-linear delay-300;
+
+  &.active {
+    @apply bg-cyan-400;
+  }
+}
