@@ -42,7 +42,7 @@ const Main = () => {
 
     return (
         <div className={'min-h-screen flex'}>
-            <div className={'container px-4 mx-auto pt-5'}>
+            <div className={'max-w-xl px-4 mx-auto pt-5'}>
 
                 <div className={'flex gap-1 sm:gap-4'}>
                     <Button active={town.name === 'Minsk'} onClick={() => setTown(CITIES[0])}>
