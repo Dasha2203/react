@@ -25,7 +25,7 @@ const Details = () => {
 
     return (
         <div className={'min-h-screen flex'}>
-            <div className={'max-w-xl px-4 mx-auto pt-5'}>
+            <div className={'max-w-full md:max-w-xl px-4 mx-auto pt-5'}>
                 <CustomLink to={'/'} className={'mb-3 ml-auto block '}>Main</CustomLink>
                 <div className={'mb-5 flex gap-1 items-stretch'}>
                     <Input
